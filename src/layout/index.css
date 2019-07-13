@@ -2,11 +2,61 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Oswald Bold;
+    src: url(/fonts/Oswald-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Oswald ExtraLight;
+    src: url(/fonts/Oswald-Extra-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Oswald Light;
+    src: url(/fonts/Oswald-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Oswald Medium;
+    src: url(/fonts/Oswald-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Oswald Regular;
+    src: url(/fonts/Oswald-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Oswald SemiBold;
+    src: url(/fonts/Oswald-SemiBold.ttf) format('truetype');
+}
+
 html {
     height: 100%;
 }
 
 body {
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    font-family: Oswald Regular;
+}
+
+.ff-bold{
+    font-family: Oswald Bold;
+}
+.ff-extralight{
+    font-family: Oswald ExtraLight;
+}
+.ff-light{
+    font-family: Oswald Light;
+}
+.ff-medium{
+    font-family: Oswald Medium;
+}
+.ff-regular{
+    font-family: Oswald Regular;
+}
+.ff-semibold{
+    font-family: Oswald SemiBold;
 }
