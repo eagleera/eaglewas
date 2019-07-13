@@ -27,7 +27,7 @@ const HeroSection = () => {
   return (
     <HeroSectionSt>
       <div className="flex overflow-x-hidden">
-        <div className="w-50 ph4 bg-near-black z-1">
+        <div className="w-50 ph4 bg-my-black z-1">
           <Title>
             <span className="fs12">Hi!</span>
             <br />
@@ -76,7 +76,7 @@ const Description = styled.h1.attrs(() => ({
     font-size: 1.5rem;
     letter-spacing: 0.1rem;
     line-height: 2.2rem;
-  `;
+`;
 
 const SlidingDiagonals = styled.div.attrs(() => ({
   className: "w-50 bg-white relative"
