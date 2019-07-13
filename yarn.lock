@@ -13044,6 +13044,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
+typeit@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/typeit/-/typeit-6.0.3.tgz#df614f3737a6b04c579a8082c2827cffb43b440c"
+  integrity sha512-H1aQQek03pP2njgb60AcUfvoSWZRDdv4xHiot+HGGiAWRaLjvv6NIUSVtqnDoFKacFeEnJGII6WxyJWcY5hirg==
+
 ua-parser-js@^0.7.18:
   version "0.7.19"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.19.tgz#94151be4c0a7fb1d001af7022fdaca4642659e4b"
