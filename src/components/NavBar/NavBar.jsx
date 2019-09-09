@@ -7,17 +7,29 @@ const NavBar = () => {
     <NavBarSt>
       <LogoContainer>
         <img src="logos/logo-1024.png" alt="logo" />
-        <span className="my-black">Daniel Aguilera</span>
+        <span className="white">Daniel Aguilera</span>
       </LogoContainer>
       <MenuItems>
         <Items>
-            <Link to="About" className="no-underline color-inherit">
-                Me
-            </Link>
+          <Link to="aboutme" className="no-underline color-inherit">
+            Me
+          </Link>
         </Items>
-        <Items>Thoughts</Items>
-        <Items>Babies</Items>
-        <Items>Coffee?</Items>
+        <Items>
+          <Link to="blog" className="no-underline color-inherit">
+            Thoughts
+          </Link>
+        </Items>
+        <Items>
+          <Link to="projects" className="no-underline color-inherit">
+            Projects
+          </Link>
+        </Items>
+        <Items>
+          <a href="https://www.buymeacoffee.com/Eaglewas" rel="noopener noreferrer" target="_blank" className="no-underline color-inherit">
+            Coffee?
+          </a>
+        </Items>
       </MenuItems>
     </NavBarSt>
   );
@@ -44,7 +56,7 @@ const LogoContainer = styled.div.attrs(() => ({
 
 
 const MenuItems = styled.ul.attrs(() => ({
-    className: "inline-flex flex-auto ma0 f3 my-black list justify-end pr4"
+    className: "inline-flex flex-auto ma0 f3 white list justify-end pr4"
 }))``;
 
 const Items = styled.li.attrs(() => ({

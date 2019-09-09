@@ -18,7 +18,7 @@ const HeroSection = () => {
       .type(" (actually I like frontend more than backend).")
       .break()
       .pause(1000)
-      .type("\n Sadly I suck at designing templates :(")
+      .type("\n Sadly I suck at designing")
       .break()
       .pause(900)
       .type("\n I&apos;m also a big Pokémon fan (and I love beer).")
@@ -30,7 +30,7 @@ const HeroSection = () => {
   return (
     <HeroSectionSt>
       <div className="flex overflow-x-hidden">
-        <div className="w-50 ph4 bg-my-black z-1">
+        <div className="w-50 ph4 bg-white z-1">
           <Title>
             <span className="fs12">Hi!</span>
             <br />
@@ -75,7 +75,7 @@ export default HeroSection;
 // STYLES
 
 const HeroSectionSt = styled.div.attrs(() => ({
-  className: "container bg-my-black white"
+  className: "container"
 }))`
   height: calc(100vh - 4rem);
 `;
