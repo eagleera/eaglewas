@@ -2,11 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 const ArticleSection = () => {
-   const postEdges = allMarkdownRemark.edges;
+  //  const postEdges = allMarkdownRemark.edges;
   return (
     <Container>
       <h1 className="ma0 white pb4">You can read some of my last thoughts...</h1>
-      <PostListing postEdges={postEdges} />
+      {/* <PostListing postEdges={postEdges} /> */}
     </Container>
     
   );
