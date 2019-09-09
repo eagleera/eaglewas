@@ -18,7 +18,7 @@ const HeroSection = () => {
       .type(" (actually I like frontend more than backend).")
       .break()
       .pause(1000)
-      .type("\n Sadly I suck at designing")
+      .type("\n Sadly I suck at designing interfaces...")
       .break()
       .pause(900)
       .type("\n I&apos;m also a big Pokémon fan (and I love beer).")
@@ -32,9 +32,9 @@ const HeroSection = () => {
       <div className="flex overflow-x-hidden">
         <div className="w-50 ph4 bg-white z-1">
           <Title>
-            <span className="fs12">Hi!</span>
+            <span className="fs12">Suh</span>
             <br />
-            Daniel here.
+            I'm Daniel!
           </Title>
           <Description>
             I&apos;m an IT student from México and a full-stack dev
